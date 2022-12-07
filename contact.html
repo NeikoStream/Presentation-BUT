@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav class="menu-logo">
+        <img
+          class="logo"
+          src="img/UT3_logo.jpg"
+          alt="logo de l'universiter toulouse 3"
+        />
+        <img
+          class="logo"
+          src="img/IUTINFO_logo.PNG"
+          alt="logo de l'Institut universitaire de technologie de toulouse"
+        />
+        <img
+          class="logo-right"
+          src="img/BUT_logo.png"
+          alt="logo du Bachelor Universitaire de Technologie"
+        />
+      </nav>
+
+      <nav class="nav-wrapper">
+        <input id="menu-checkbox" type="checkbox" class="menu-checkbox">
+        <label for="menu-checkbox" class="menu-toggle">&equiv; Show Menu</label>
+        <ul class="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="presbut.html">Présentation du BUT</a></li>
+          <li>
+            <a href="#" class="comp1">Compétences</a>
+            <ul class="sous-comp">
+              <li><a href="competence1.html">Compétence 1</a></li>
+              <li><a href="competence2.html">Compétence 2</a></li>
+              <li><a href="competence3.html">Compétence 3</a></li>
+              <li><a href="competence4.html">Compétence 4</a></li>
+              <li><a href="competence5.html">Compétence 5</a></li>
+              <li><a href="competence6.html">Compétence 6</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="wrapper">
+      <div class="first-title">
+        <h1>Nous contacter</h1>
+      </div>
+      
+      <div class="contenant-mess-client wrapper">
+        <h2 id="titre-formulaire-contact">Formulaire de contact : </h2>
+        <form method="post" action="#">
+          <p>
+          <div class="première-colonne-mess-client">
+            <input class="contenu_premiere_colonne"
+              type="text"
+              name="Prenom"
+              id="prenom"
+              placeholder="Prénom"
+              size="20"
+              required
+            />
+            <input class="contenu_premiere_colonne"
+              type="text"
+              name="Nom"
+              id="Nom"
+              placeholder="Nom"
+              size="20"
+              required
+            />
+            <input class="contenu_premiere_colonne"
+              type="text"
+              name="Email"
+              id="Email"
+              placeholder="Adresse mail"
+              size="50"
+              required
+            />
+            
+          </div>
+          <div class="deuxieme-colonne-mess-client">
+            <textarea
+              name="Message"
+              id="Message"
+              cols="180"
+              rows="10"
+            ></textarea>
+            <input class="contenu_premiere_colonne envoyer" type="submit" value="Envoyer" id="Envoyer" />
+          </div>
+        </form>
+      </div>
+      <div class="contenant-renseignement">
+        <div class="renseignement1">
+          <img src="img/IUT_tlseR.jpg" alt="Photo de l'IUT">
+        </div>
+        <div class="renseignement2">
+          <p>133 B Avenue de Rangueil <br> 31400 - Toulouse</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.748141446755!2d1.4626790512614258!3d43.570130879021896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebc3f84ff529f%3A0x6031cf0df98a453f!2sIUT%20Paul%20Sabatier%20%3A%20Informatique!5e0!3m2!1sfr!2sfr!4v1636445751687!5m2!1sfr!2sfr" width="96%" height="245" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="last"></div>
+    </main>
+    
+    <footer>
+      <div class="content-footer">
+        <div class="bloc footer-sommaire">
+          <h3>Sommaire</h3>
+          <ul class="sommaire-list">
+            <li><a href="index.html">Page d'accueil</a></li>
+            <li><a href="presbut.html">Page de présentation BUT</a></li>
+            <li><a href="#">Page des compétences</a></li>
+            <li><a href="contact.html">Page Contact</a></li>
+          </ul>
+        </div>
+        <div class="content-RGPD">
+            <span><a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees">CNIL - RGPD</a></span>
+        </div>
+
+        <div class="footer-logo">
+          <img src="img/MAIN_logo.png" alt="Logo de l'entreprise">
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
